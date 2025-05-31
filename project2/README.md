@@ -55,6 +55,9 @@ cd project2
 python summarize_paper.py ./example_paper.pdf
 ```
 
+지금 디렉토리에 있는 논문은 제 논문입니다.. ㅎㅎ
+
+
 실행하면 네 가지 결과가 출력됩니다:
 
 * 🔎🔎🔎 [Paper Summary] 🔎🔎🔎
