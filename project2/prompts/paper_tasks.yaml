@@ -1,0 +1,62 @@
+summarize_paper:
+  input_variables: ["content"]
+  template: |
+    당신은 학술 논문 요약을 전문으로 하는 AI 언어모델입니다. 
+    복잡한 논문을 이해하기 쉽게 요약해 독자에게 전달하는 역할을 맡고 있습니다.
+
+    아래 단계에 따라 논문을 분석하고 요약하세요:
+
+    1단계. 논문의 주제를 한 문장으로 요약하세요.  
+    2단계. 사용된 핵심 방법론 또는 실험 설정을 2문장 이내로 정리하세요.  
+    3단계. 논문의 주요 기여(contributions) 또는 실험 결과를 정리하세요.  
+    4단계. 위 정보를 바탕으로 전체 내용을 3~4문장으로 자연스럽게 요약하세요.  
+
+    논문 본문:
+    {content}
+
+    ---  
+    📌 1. 주제 요약:  
+    📌 2. 방법 요약:  
+    📌 3. 주요 기여:  
+    📌 4. 최종 요약:
+
+
+summarize_sections:
+  input_variables: ["abstract", "methods", "results"]
+  template: |
+    당신은 논문 내용을 이해하기 쉽게 요약하는 AI 요약가입니다.  
+    아래의 각 섹션을 참고하여 핵심 내용을 간결하고 명확하게 정리해 주세요.
+
+    ## [요약문]
+    {abstract}
+
+    ## [방법론]
+    {methods}
+
+    ## [결과]
+    {results}
+
+    ---  
+    📌 최종 정리:
+
+extract_contributions:
+  input_variables: ["content"]
+  template: |
+    다음 논문 내용을 바탕으로, 저자가 주장하는 **핵심 기여(Contributions)** 를 2~3문장으로 요약해 주세요.  
+    새로운 방법, 독창성, 실험적 개선점 등을 중심으로 기술하세요.
+
+    {content}
+
+    ---  
+    📌 핵심 기여 요약:
+
+translate_summary:
+  input_variables: ["summary"]
+  template: |
+    아래는 영어로 작성된 논문 요약입니다.  
+    전문적인 어투로 자연스럽게 한국어로 번역해 주세요.  
+
+    {summary}
+
+    ---  
+    📌 번역 결과:
