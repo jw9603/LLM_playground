@@ -44,6 +44,6 @@ streamlit run main1.py
 ```
 - 웹 브라우저에 열리는 UI에서 PDF 업로드 후 질문을 입력하면 실시간으로 답변이 표시됩니다.
 
-![DEMO](./demo/stream.mov)
+
 
 
