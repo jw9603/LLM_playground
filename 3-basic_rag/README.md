@@ -33,7 +33,7 @@ python main.py
 
 - 콘솔에 나오는 안내에 따라 질문을 입력하면 PDF 기반 또는 일반 지식 기반으로 답변을 제공합니다.
 
-**DEMO**
+
 
 
 ---
@@ -44,6 +44,6 @@ streamlit run main1.py
 ```
 - 웹 브라우저에 열리는 UI에서 PDF 업로드 후 질문을 입력하면 실시간으로 답변이 표시됩니다.
 
-**DEMO**
+![**DEMO**](./demo/stream.gif)
 
 
