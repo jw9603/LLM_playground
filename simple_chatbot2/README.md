@@ -1,4 +1,4 @@
-# LangChain 기반 PDF Q&A & 프롬프트 챗봇
+# 🥔 LangChain 기반 PDF Q&A & 프롬프트 챗봇
 
 LLM과 LangChain을 활용하여 다음 두 가지 기능을 제공하는 Streamlit 기반 미니 프로젝트입니다:
 
