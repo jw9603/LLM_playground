@@ -28,13 +28,8 @@ LLM과 LangChain을 활용하여 다음 두 가지 기능을 제공하는 Stream
 
 ## 🚀 실행 방법
 
-### 1. 설치
 
-```bash
-pip install -r requirements.txt
-```
-
-### 2. 환경 변수 설정
+### 1. 환경 변수 설정
 
 `.env` 파일을 루트에 생성하고, 아래와 같이 OpenAI API 키를 입력하세요:
 
@@ -42,7 +37,7 @@ pip install -r requirements.txt
 OPENAI_API_KEY=sk-xxxxxxx
 ```
 
-### 3. 실행
+### 2. 실행
 
 ```bash
 streamlit run main.py
