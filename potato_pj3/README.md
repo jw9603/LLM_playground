@@ -3,7 +3,7 @@
 
 이 프로젝트는 이메일 본문을 입력하면 **PydanticOutputParser**로 핵심 정보를 구조화하여 추출하고, **SerpAPI**로 발신자 관련 \*\*추가 정보(웹 검색 결과)\*\*를 자동 수집한 뒤, **리포트 형태**로 보여주는 **대화형 Streamlit 앱**입니다.
 
-> 키워드: Streamlit, LangChain, Pydantic, OpenAI, SerpAPI, OutputParser, RAG-lite
+> 키워드: Streamlit, LangChain, Pydantic, OpenAI, SerpAPI, OutputParser
 
 ---
 
