@@ -1,12 +1,14 @@
 # 📚 Local RAG & Multi-Modal Chatbot with LangChain + Ollama
 
 이 프로젝트는 **LangChain + Streamlit** 기반으로 구현된 **로컬 RAG(Retrieval-Augmented Generation) & 멀티모달 챗봇**입니다.  
+
 OpenAI API와 Ollama 로컬 모델을 선택적으로 활용할 수 있으며, PDF 문서 기반 질의응답뿐 아니라 이미지 인식 기반 질의응답까지 지원합니다. 
+
 [기존 프로젝트](https://github.com/jw9603/LLM_playground/tree/main/simple_chatbot2) 에서 발전되었다 보시면 됩니다.🚀
 
 ---
 
-## ✨ Features
+## Features
 
 - **PDF 기반 RAG**
   - 업로드한 PDF 문서를 임베딩 & 검색
